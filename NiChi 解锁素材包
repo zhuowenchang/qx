@@ -1,0 +1,7 @@
+NiChi 解锁素材包
+
+***************************
+QuantumultX:
+
+[rewrite_local]
+^https?:\/\/m(p|ini-hk)\.bybutter\.com\/mood\/(official-templates|privileges) url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/NiChi.js
