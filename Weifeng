@@ -1,0 +1,7 @@
+# >  /*  APP开屏广告拦截，APP启动广告拦截，解锁某些APP会员，重定向！
+# >   a28413761  收集整理
+# >  更新时间  2022.05.11
+# >  */  
+hostname = api.wfdata.club
+# > 威锋
+^https:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url reject
