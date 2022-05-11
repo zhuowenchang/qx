@@ -1,8 +1,0 @@
-/**
- * @suppoted A09EAC2B5BA5 F2AD827967B8
- */ 
-hostname = account.wps.com
-
-
-# WPS
-^https://account.wps.cn|com/api/users/ url script-response-body https://raw.githubusercontent.com/YinbingSong/Script/master/QuantumultX/File/wps.js
